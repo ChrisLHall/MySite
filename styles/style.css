@@ -7,7 +7,7 @@ StyleSheet for BinaryNews Template
 body {
  background-color: #862A1B;
  color: #FFF;
- padding: 0; margin: 0; font: 'Open Sans', sans-serif; line-height: 1.5em;
+ padding: 0; margin: 0; font-family: 'Open Sans' sans-serif; line-height: 1.5em;
 }
 
 a { color: #46574D; background: inherit; }
@@ -19,7 +19,7 @@ h1 a { color: #46574D; background: inherit; }
 h1 a, h2 a { text-decoration: none; }
 h1 a:hover, h2 a:hover { color: #BFE1ED; background: inherit; }
 h3 { font-size: 0.9em; margin: 0 0 10px 0; padding: 0; color: #46574D; background: #FFF; }
-p {	margin: 0 0 0px 0; line-height: 1.5em; font: normal 'Open Sans', sans-serif;}
+p {	margin: 0 0 0px 0; line-height: 1.5em; }
 form { margin: 0; }
 
 input.search { width: 122px; height: 15px; border: 1px dashed #46574D; background-color: #FFF; padding: 3px; color: #616161; }
@@ -116,25 +116,31 @@ a {
 	width: 886px;
 }
 
+.sd_full {
+
+    background-color: #FFF;
+	color: #000;
+	margin: 0 50px 30px 50px;
+}	
 
 .sd_left {
 
     background-color: #FFF;
 	color: #000;
-	margin: 0 0 0px 80px;
+	margin: 0 0 0px 50px;
 	padding: 0px 20px 0px 5px;
-	width: 500px;
+	width: 530px;
 	
-}	
+}
 
 .sd_right {
     clear:both;
     background-color: #FFF;
 	float: right;
 	color: #000;
-	margin: 0 90px 0 0;
+	margin: 0 60px 0 0;
 	padding: 0px 0px 0 15px;
-	width: 170px;
+	width: 200px;
 	border-left: 1px dashed #ccc;
 }	
 
@@ -159,7 +165,7 @@ a {
 	background-color: #FFF;
 	padding: 5px 0 5px 0;
 	color: #46574D;
-	font: bold 1.6em 'Open Sans', sans-serif;
+	font: bold 1.8em 'Open Sans', sans-serif;
 }
 
 
@@ -222,15 +228,14 @@ input.button {
 .footer { 
 	background-color: #000;
 	width: 886px;
-	height: 78px;
 	color:#555;  
 	font-size:90%;
 	text-align:center; 
 	clear:both;
 }
 
-		.footer .padding {
-			padding: 40px 0 0 0;
-				
-		}
+.footer .padding {
+    padding: 40px 30px 30px 30px;
+        
+}
 
