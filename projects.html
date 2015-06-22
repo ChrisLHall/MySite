@@ -27,15 +27,18 @@
     <div class="sd_full">
       <div class="text_padding">
         <h1>Projects</h1>
-        <p>This is a list of projects that I have worked on, in and out of
+        <p>This is a list of interesting projects that I have worked on, in and out of
         school. Each description details the technical challenges of the project
         and the skills I gained from each one.</p>
-        <h2>Griddle - UC Berkeley Social Apps Lab</h2>
+        <h2>Griddle - Educational game about the power grid</h2>
         <img class="inline_block" src="images/griddle_thumbnail.png" />
-        <p><strong>Position:</strong> Part-time programmer for an in-development educational
-        game about the power grid. The game is being developed using <a href="http://unity3d.com/">Unity3D</a>.</p>
-        <p><strong>Skills:</strong> Unity3D, C#, Agile development</p>
-        <p><strong>Description:</strong> Griddle is an in-development educational game which will be used to
+        <p><strong>Skills:</strong> <a target="_blank" href="http://unity3d.com/">Unity3D</a>,
+          C#, Agile development</p>
+        <p><strong>Collaborators:</strong> <a target="_blank" href="https://www.linkedin.com/profile/view?id=17891077">Michael
+          Cohen</a> leads the project, I was one of many students working on it</p>
+        <p><strong>Description:</strong> Griddle is an in-development educational game by
+        <a target="_blank" href="https://www.linkedin.com/profile/view?id=17891077">Michael Cohen</a>
+        which will be used to
         educate high-school and college students about how the power grid works,
         and about the challenges and benefits of renewable vs. conventional
         energy. It covers concepts from system design to generation scheduling,
@@ -44,6 +47,69 @@
         part-time during the summer of 2014. The game has been used to teach
         several lessons at Berkeley High School, and I helped at a few of
         these.</p>
+
+        <h2><a target="_blank" href="http://challengepost.com/software/pulley">Pulley - Deployment system for websites on Git</a></h2>
+        <a target="_blank" href="http://challengepost.com/software/pulley"><img class="inline_block" src="images/pulley_thumbnail.jpg" /></a>
+        <p><strong>Skills:</strong> HTML5/CSS/JQuery, Bootstrap, PHP</p>
+        <p><strong>Collaborators:</strong> <a target="_blank" href= "http://iangoegebuer.com/">Ian Goegebuer</a>, <a target="_blank" href="https://github.com/johnnypatterson">Johnny Patterson</a>,
+        <a target="_blank" href="http://web.csulb.edu/~jang2/">Jasmine Ang</a></p>
+        <p><strong>Description:</strong> Pulley is a website admin tool intended
+        for use with sites that are written using Git source control. It allows
+        a site owner to deploy websites from a Git repositiories onto a live
+        server by clicking one button. The dashboard page shows the name and URL
+        of each of the sites, and indicates whether the version running on the
+        server is up-to-date with the code in the repositories. The system also
+        allows you to snapshot a MySQL database running on the server and save
+        it to a Git repository for backup. This project won two awards at
+        <a target="_blank" href="http://hackuci.challengepost.com/">HackUCI 2014</a>.
+        It is too rough around the edges to have an open-source distribution,
+        but if any of our team decides to use Pulley on our own sites, we will
+        implement authentication and then open-source the project.</p>
+
+        <h2>3-Stage RISC-V CPU on Xilinx FPGA (school project)</h2>
+        <img class="inline_block" src="images/cpu_thumbnail.jpg" />
+        <p><strong>Skills:</strong> Verilog, Xilinx toolchain</p>
+        <p><strong>Collaborators:</strong> <a target="_blank" href= "https://github.com/challiwill">Corbin Halliwill</a></p>
+        <p><strong>Description:</strong> In the UC Berkeley class called "Components
+        and Design Techniques for Digital Systems" (Computer Science 150) students
+        designed a CPU with a 3-stage pipeline and implemented it in Verilog on
+        a Xilinx FPGA. The biggest challenge of the project was debugging small
+        logic errors and timing problems, and as a
+        result I gained a lot of experience with the Xilinx simulation and
+        analysis tools and the ChipScope FPGA debugging tool. The thumbnail shows
+        what happens when you mess up your UART transmitter block!</p>
+
+        <h2>Python Compiler (school project)</h2>
+        <img class="inline_block" src="images/compiler_thumbnail.png" />
+        <p><strong>Skills:</strong> C++, Regular Expressions</p>
+        <p><strong>Collaborators:</strong> Jeffrey Seyfried, Shaun Singh, Aaron Zhou</p>
+        <p><strong>Description:</strong> The "Programming Languages and Compilers"
+        class at UC Berkeley (Computer Science 164) teaches students to build a compiler for a reduced
+        and static-typed dialect of Python. In the first of three projects,
+        students create a lexer and parser to build abstract syntax trees from
+        Python source. The second project is a type inferrer, which decorates
+        the syntax trees with type information and then infers the static types
+        of expressions that are not specified. The third project is a code
+        generator, in which the final type-inferred syntax tree is converted
+        into C++ source and compiled with GCC to create an executable.</p>
+
+        <h2>Raytracer (school project)</h2>
+        <img class="inline_block" src="images/raytracer_thumbnail.png" />
+        <p><strong>Skills:</strong> C++</p>
+        <p><strong>Description:</strong> The introductory computer graphics
+        course at UC Berkeley (Computer Science 184) has a few projects which
+        explore different aspects of rendered 3D graphics. One of the projects
+        is a raytracer, which produced the image on the left. A raytracer
+        simulates reflections and shadows by casting rays from a camera into a
+        3D scene and calculating the color of each pixel based on what objects
+        the rays hit, whether they are illuminated by a light source, whether
+        they have a reflection of another object, etc. All of these qualities
+        are calculated by casting rays in the scene and testing intersections
+        with the polygons in the scene. My implementation featured reflections,
+        shadows, anti-aliasing of pixels through multi-sampling, and area lights
+        / soft shadows through Monte Carlo sampling. In other words a lot a lot
+        a lot of vector and matrix operations.
+        </p>
       </div>
     </div>
     <div class="footer">
