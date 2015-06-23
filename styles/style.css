@@ -66,7 +66,7 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 }
 
 .header {
-	background: #000 url(../images/header.png) no-repeat center bottom;
+	background: #000 url(../images/headerbg.png) no-repeat center bottom;
 	color: #FFF;
 	width: 886px;
 	height: 256px;
@@ -74,17 +74,24 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	padding: 0;
 }
 
-.header .title {
-	float: left;
-	padding: 190px 0 0 60px;
+.innerheader {
+    width: 260px;
+    margin: 0;
+    padding: 10px;
 	color: #053D37;
+    text-align: center;
+}
+
+.innerheader .picture {
+    width: 170px;
+}
+
+.innerheader .title {
 	font: bold 1.8em 'Open Sans', sans-serif;
 }
 
-.header .slogan {
-	float: left;
+.innerheader .slogan {
 	clear: both;
-	padding: 2px 0 0 60px;
 	color: #053D37;
 	font: bold 0.7em 'Open Sans', sans-serif;
 }
