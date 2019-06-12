@@ -1,0 +1,24 @@
+{
+  "name": "challsite",
+  "version": "0.0.1",
+  "description": "Chall's personal website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ChrisLHall@github.com/ChrisLHall/MySite.git"
+  },
+  "author": "Chris L. Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisLHall/MySite/issues"
+  },
+  "homepage": "https://github.com/ChrisLHall/MySite#readme"
+}
